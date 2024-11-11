@@ -1,3 +1,5 @@
+<style> 
+
 /* Appliquer un fond de page et une couleur de texte par défaut */
 body {
     background-color: #f0f0f0;  /* Fond gris clair */
@@ -26,3 +28,4 @@ p {
     width: 80%;  /* Largeur à 80% du parent */
     text-align: center;  /* Centrer le texte du paragraphe */
 }
+</style>
