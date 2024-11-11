@@ -4,6 +4,38 @@
     <meta charset="UTF-8">  <!-- Définit l'encodage des caractères -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Assure la réactivité sur mobile -->
     <title>Page Simple</title>  <!-- Titre de la page -->
+    <style> 
+
+            /* Appliquer un fond de page et une couleur de texte par défaut */
+        body {
+        background-color: #f0f0f0;  /* Fond gris clair */
+        color: #333;  /* Texte de couleur gris foncé */
+        font-family: Arial, sans-serif;  /* Choisir une police simple */
+        display: flex;
+        justify-content: center;  /* Centrer horizontalement */
+        align-items: center;  /* Centrer verticalement */
+        height: 100vh;  /* Utiliser toute la hauteur de la fenêtre */
+        margin: 0;  /* Supprimer les marges par défaut */
+        }
+        
+            /* Styliser le titre */
+        h1 {
+        color: #4CAF50;  /* Titre en vert */
+        font-size: 3em;  /* Taille de police plus grande */
+        text-align: center;  /* Centrer le texte */
+        }
+        
+            /* Styliser le paragraphe */
+        p {
+        background-color: #ffffff;  /* Fond blanc pour le paragraphe */
+        padding: 20px;  /* Ajouter un peu d'espace à l'intérieur */
+        border-radius: 5px;  /* Coins arrondis */
+        margin-top: 20px;  /* Ajouter de l'espace au-dessus du paragraphe */
+        width: 80%;  /* Largeur à 80% du parent */
+        text-align: center;  /* Centrer le texte du paragraphe */
+        }
+    </style>
+
 </head>
 <body>  <!-- Contenu visible de la page -->
     <h1>Bienvenue sur ma page</h1>  <!-- Titre principal -->
@@ -12,34 +44,3 @@
 </html>
 
 
-<style> 
-
-/* Appliquer un fond de page et une couleur de texte par défaut */
-body {
-    background-color: #f0f0f0;  /* Fond gris clair */
-    color: #333;  /* Texte de couleur gris foncé */
-    font-family: Arial, sans-serif;  /* Choisir une police simple */
-    display: flex;
-    justify-content: center;  /* Centrer horizontalement */
-    align-items: center;  /* Centrer verticalement */
-    height: 100vh;  /* Utiliser toute la hauteur de la fenêtre */
-    margin: 0;  /* Supprimer les marges par défaut */
-}
-
-/* Styliser le titre */
-h1 {
-    color: #4CAF50;  /* Titre en vert */
-    font-size: 3em;  /* Taille de police plus grande */
-    text-align: center;  /* Centrer le texte */
-}
-
-/* Styliser le paragraphe */
-p {
-    background-color: #ffffff;  /* Fond blanc pour le paragraphe */
-    padding: 20px;  /* Ajouter un peu d'espace à l'intérieur */
-    border-radius: 5px;  /* Coins arrondis */
-    margin-top: 20px;  /* Ajouter de l'espace au-dessus du paragraphe */
-    width: 80%;  /* Largeur à 80% du parent */
-    text-align: center;  /* Centrer le texte du paragraphe */
-}
-</style>
