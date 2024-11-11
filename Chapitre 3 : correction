@@ -1,3 +1,17 @@
+<!DOCTYPE html>  <!-- Déclare le document HTML5 -->
+<html lang="fr">  <!-- Début du document HTML -->
+<head>  <!-- Contient les informations de la page -->
+    <meta charset="UTF-8">  <!-- Définit l'encodage des caractères -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Assure la réactivité sur mobile -->
+    <title>Page Simple</title>  <!-- Titre de la page -->
+</head>
+<body>  <!-- Contenu visible de la page -->
+    <h1>Bienvenue sur ma page</h1>  <!-- Titre principal -->
+    <p>Ceci est un paragraphe d'exemple pour apprendre le HTML.</p>  <!-- Paragraphe de texte -->
+</body>
+</html>
+
+
 <style> 
 
 /* Appliquer un fond de page et une couleur de texte par défaut */
