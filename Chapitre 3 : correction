@@ -30,7 +30,6 @@
             color: #333;  /* Couleur du texte dans le paragraphe */
             height: 100px;  /* Hauteur du paragraphe */
             width: 80%;  /* Largeur du paragraphe à 80% de la largeur de la page */
-            line-height: 100px;  /* Centrer le texte verticalement */
         }
     </style>
 </head>
