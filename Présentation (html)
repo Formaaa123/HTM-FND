@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Web Simple</title>
+
+    <!-- Font Awesome (pour les icônes) : https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts (Roboto) : https://fonts.google.com/specimen/Roboto -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Fichier CSS (styles personnalisés) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Mon Site</div>
+            <ul class="menu">
+                <!-- Lien direct pour styliser les menus avec 320CSS : https://320css.com/navigation -->
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <!-- Section héroïque (texte principal) : Exemples d'alignement et de typographie dans 320CSS -->
+            <!-- Documentation typographie : https://320css.com/text -->
+            <h1>Bienvenue sur notre site</h1>
+            <p>Découvrez nos services et apprenez-en plus sur nous.</p>
+        </section>
+
+        <section class="services">
+            <!-- Documentation sur les cartes (Cards) dans 320CSS : https://320css.com/cards -->
+            <h2>Nos Services</h2>
+            <div class="card">
+                <!-- Icône "Laptop Code" de Font Awesome : https://fontawesome.com/icons/laptop-code -->
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Développement</h3>
+                <p>Création de sites web modernes et performants.</p>
+            </div>
+            <div class="card">
+                <!-- Icône "Chart Line" de Font Awesome : https://fontawesome.com/icons/chart-line -->
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Marketing</h3>
+                <p>Stratégies pour faire croître votre activité en ligne.</p>
+            </div>
+            <div class="card">
+                <!-- Icône "Headset" de Font Awesome : https://fontawesome.com/icons/headset -->
+                <i class="fa-solid fa-headset"></i>
+                <h3>Support</h3>
+                <p>Assistance rapide et efficace à tout moment.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Documentation pour le pied de page (Footer) : https://320css.com/footer -->
+        <p>&copy; 2024 Mon Site. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
