@@ -55,7 +55,7 @@
     <!-- iFrame -->
     <div>
         <h2>Visiter Google dans un iFrame</h2>
-        <iframe src="https://www.google.com" width="600" height="400"></iframe>
+         <iframe src="https://fr.wikipedia.org" width="600" height="400"></iframe>
     </div>
 
 </body>
