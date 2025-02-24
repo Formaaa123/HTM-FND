@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemple 320 CSS</title>
     
-    <!-- 320 CSS depuis le CDN -->
+    <!-- 320 CSS depuis le CDN (-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/320css/dist/320.css">
     
     <!-- CSS personnalisé -->
